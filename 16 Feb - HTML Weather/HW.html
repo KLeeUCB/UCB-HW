@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plots</title>
+  <title>Comparison</title>
+  <title>Data</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap_min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="topnav"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Lattitude</a></p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Plots</a>
+                        <a class="dropdown-item" href="#">Comparison</a>
+                        <a class="dropdown-item" href="#">Data</a>
+                            <div class="container">
+                                  <div class="row">
+                                     <div class="box bg-white">                                    
+                                            <p>
+                                                "The following table includes all of the data used for plotting during this project."
+                                            </p>
+                                                <table class="table table-striped table-hover table condensed">
+                                                    <th title="Field #1">City_ID</th>
+                                                    
+                                                </table>
+
+                                        </div>         
+                                    </div>     
+                            </div>   
+                    </div>                     
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-7">
+                                <div class="box bg-white">
+                                    <h2>Summary: Latitude vs. X</h2>
+                                    <hr>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-12 clearfix">
+                                                <img class="float-left" height="50%" width="50%" src="Fig1.png" alt="Fig1">
+                                                <p class="format">The purpose of this project was to analyze how weather changes as you get closer to the equaltor.  To
+                                                    accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                                                    <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. 
+                                                    latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This 
+                                                    site provides the source data and visualizations created as part of the analysis, as well as explanations 
+                                                    and descriptions of any trends and correlations witnessed.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-5">
+                                    <div class="box bg-white">
+                                        <h2>Visualizations</h2>
+                                        <hr>
+                                        <div container="">
+                                            <div class="row">
+                                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                                    <div class="box-selected">                                            
+                                                    </div>                                                    <div>
+                                                        <a href="visualization_one.html">
+                                                            <img height="100%" width="100%" src="Fig1.png" alt="Fig1">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                                    <div>
+                                                        <a href="visualization_two.html">
+                                                            <img height="100%" width="100%" src="Fig2.png" alt="Fig2">
+                                                        </a>   
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                                    <div>
+                                                        <a href="visualization_three.html">
+                                                            <img height="100%" width="100%" src="Fig3.png" alt="Fig3">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                                    <div>
+                                                        <a href="visualization_four.html">
+                                                            <img height="100%" width="100%" src="Fig4.png" alt="Fig4">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
